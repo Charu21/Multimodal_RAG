@@ -1,7 +1,26 @@
-Grand_theft_auto
+Grand_theft_auto search
 ==============================
 
-A Grand Theft Auto Multimodal Retrieval-Augmented Generation (RAG) Application that leverages LanceDB as a vector database, OpenAI’s “ViT-L/14” for multimodal embedding, and the GTA-Image-Captioning-Dataset.
+## Problem Statement
+A Grand Theft Auto Multimodal Retrieval-Augmented Generation (RAG) Application that leverages LanceDB as a vector database, OpenAI’s “ViT-L/14” for multimodal embedding, and the GTA-Image-Captioning-Dataset provided. The application is capable of processing and understanding complex queries related to the Grand Theft Auto universe, providing accurate and contextually relevant responses that combine textual and visual information. 
+
+#### Technologies used:
+LanceDB: Familiarize yourself with LanceDB’s capabilities as a vector database to handle efficient storage and retrieval of high-dimensional data. 
+OpenAI’s “ViT-L/14”: Study the “ViT-L/14” model to understand how it can be used to create embeddings for images that capture both visual and textual information. 
+Hugging Face Dataset: Explore the “vipulmaheshwari/GTA-Image-Captioning-Dataset” to understand the structure and content of the dataset. 
+
+#### Description:
+- A system is developed to ingest data from the GTA-Image-Captioning-Dataset and create multimodal embeddings using “ViT-L/14”. 
+- Then, a retrieval system is implemented using LanceDB to store and query the embeddings effectively. 
+- There are a number of ways to combine the multi modal embeddings of text and image, but here used averaging as results were best according to subjective analysis.
+
+#### Application development:
+- The final web app is developed using Gradio for quick development and will be deployed using Huggingface Spaces.
+- And for the application project structure cookie-cutter template is used as referenced as explained below.
+
+#### Reference Resources used:
+- Multi-Vector Retriever for RAG on tables, text, and images (langchain.dev)
+- Multimodal RAG applications - Blixxi Labs (vipul-maheshwari.github.io)
 
 Project Organization
 ------------
