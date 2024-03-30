@@ -5,13 +5,13 @@ Grand_theft_auto search
 A Grand Theft Auto Multimodal Retrieval-Augmented Generation (RAG) Application that leverages LanceDB as a vector database, OpenAI’s “ViT-L/14” for multimodal embedding, and the GTA-Image-Captioning-Dataset provided. The application is capable of processing and understanding complex queries related to the Grand Theft Auto universe, providing accurate and contextually relevant responses that combine textual and visual information. 
 
 #### Technologies used:
-LanceDB: Familiarize yourself with LanceDB’s capabilities as a vector database to handle efficient storage and retrieval of high-dimensional data. 
-OpenAI’s “ViT-L/14”: Study the “ViT-L/14” model to understand how it can be used to create embeddings for images that capture both visual and textual information. 
-Hugging Face Dataset: Explore the “vipulmaheshwari/GTA-Image-Captioning-Dataset” to understand the structure and content of the dataset. 
+LanceDB: LanceDB serves as a vector database to handle efficient storage and retrieval of high-dimensional data. 
+OpenAI’s “ViT-L/14”: The “ViT-L/14” model is used to create embeddings for images that capture both visual and textual information. 
+Hugging Face Dataset: Here have used the “vipulmaheshwari/GTA-Image-Captioning-Dataset” to work on searching appropriate images with query text. 
 
 #### Description:
-- A system is developed to ingest data from the GTA-Image-Captioning-Dataset and create multimodal embeddings using “ViT-L/14”. 
-- Then, a retrieval system is implemented using LanceDB to store and query the embeddings effectively. 
+- The system first ingests data from the GTA-Image-Captioning-Dataset and create multimodal embeddings using “ViT-L/14”. 
+- Then, a retrieval system implemented using LanceDB to store and query the embeddings effectively. 
 - There are a number of ways to combine the multi modal embeddings of text and image, but here used averaging as results were best according to subjective analysis.
 
 #### Application development:
